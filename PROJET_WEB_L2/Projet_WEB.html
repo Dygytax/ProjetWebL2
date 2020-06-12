@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="http://fr.allfont.net/allfont.css?fonts=bikham-cyr-script" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="Projet_WEB_CSS.css">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <title>Musique Info</title>
+
+    </head>
+    <body>
+        <header> 
+            <img src="logo.png">
+            <p class=" grandtitre" > MusiqueInfo</p>
+            <section>
+                <nav class = "menu">
+                    <div class = ligne>
+                        <button class= "buttonpresent" onclick="showPresent()"> Présentation </button>
+                        <button class= "buttonmusique" onclick="showMusic()"> Musique </button>
+                        <button class= "buttonartistes" onclick="showArtists()"> Artistes </button>
+                        <button class= "buttonjouer" onclick= "showA_Vous_de_jouez()"> A Vous de Jouer ! </button>
+                        <button class = "buttondecouverte" onclick = "showDecouverte()"> Vos découvertes!</button>
+                    </div>
+                </nav>
+            </section>
+        </header>
+        <p class="Presentation"> Presentation </p>
+        <main class = "present">
+            <p class="textPre">
+                La musique est un art et une activité culturelle consistant à combiner sons et silences au cours du temps. Les ingrédients principaux sont le rythme (façon de combiner les sons dans le temps), la hauteur (combinaison dans les fréquences), les nuances et le timbre. Elle est aujourd'hui considérée comme une forme de poésie moderne.
+
+                La musique donne lieu à des créations (des œuvres d'art créées par des compositeurs), des représentations. Elle utilise certaines règles ou systèmes de composition, des plus simples aux plus complexes (souvent les notes de musique, les gammes et autres). Elle peut utiliser des objets divers, le corps, la voix, mais aussi des instruments de musique spécialement conçus, et de plus en plus tous les sons (concrets, de synthèses, abstraits, etc.).
+
+                La musique a existé dans toutes les sociétés humaines, depuis la Préhistoire. Elle est à la fois forme d'expression individuelle (notamment l'expression des sentiments), source de rassemblement collectif et de plaisir (fête, chant, danse) et symbole d'une communauté culturelle, nationale ou spirituelle (hymne national, musique traditionnelle, musique folklorique, musique religieuse, musique militaire, etc.).<br>
+                Depuis les années 2000, la musique se développe par tous les moyens grâce à Internet.
+                Que ce soit avec les maisons de disque, les sites de streaming tels que Spotify ou encore deezer. 
+                <br><img src="Spotify.jpg"><br><br>
+                De plus, avec l'arrivée de YouTube en 2005, les clips musicaux ont commencé à être créés pour illustrer ce que la musique en question voulait transmettre. Grâce à ce site, les musiques les plus populaires des différents styles et différents artistes sont répertoriées.
+                Ce site a pour vocation à faciliter la culture musicale pour chaque style comme par exemple le rap Us ou encore l'Electronique plus récemment arrivé sur le marché musicale.
+                <br>
+            </p>
+            <img src="Youtube.jpg">
+        </main>
+        <p class="musique"> Musique </p>
+        <main class = "music">
+            <p class="textMus">
+
+                On ne peut avancer une date précise pour l'apparition de la musique.
+                La musique est une forme d'expression. Même si la musique des premiers hommes n'était pas semblable à la nôtre, les mélodies qu'ils inventaient traduisaient des sentiments, des émotions élémentaires, le rythme leur donnait vie et il en est toujours ainsi aujourd'hui.
+                Le rythme et la mélodie ont toujours été présents dans la musique et il est difficile de savoir lequel des deux fut le point de départ de cet art. Ce qui différencie des sons d'une musique est donc le fait qu'ils soient ordonnés et agréable à l'oreille.
+                Ainsi, la musique à beaucoup évolué dans le temps. Tout d'abord, il y a eu la musique contemporaine puis celle ci s'est divisé en plusieurs styles de musique avec les influences des différents pays. Par exemple le rap et le reggae sont des dérivés du rock via des origines américaines.
+                Par la suite est arrivé le style électronique via les différents instruments tel que le synthétiseur  dans les années 2000. Ce même style s'est divisé en plusieurs styles comme par exemple: la House, l'EDM, la Techno etc. Enfin le "Commercial" est arrivé grâce à la pop.
+                En resumé aujourd'hui, il y a plusieurs styles de musiques que nous allons énumérés ici:<br>
+
+                - Rock<br/>
+                - Rap US/FR<br/>
+                - R'nb<br/>
+                - Electro<br/>
+                - Pop<br/>
+                - Commercial<br/></p>
+        </main>
+
+        <table id = 'tabMus'>
+            <thead> 
+                <tr>
+                    <th>Nom de la Musique</th>
+                    <th>Année</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=ALZHF5UqnU4" target="_blank">Alone</a></td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=gCYcHz2k5x0" target="_blank">Animals</a></td>
+                    <td>2013</td>
+                </tr>
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=YJVmu6yttiw" target="_blank" >Bangarang</a></td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=fJ9rUzIMcZQ" target="_blank" >Bohemian Rhapsody</a></td>
+                    <td>2008</td>
+                </tr>
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=abeTaKvUYD4" target="_blank">C’est enfin l’été </a></td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=TGYvQJqX8Vo" target="_blank">Cheap Wine and cheaper Women</a></td>
+                    <td>2007</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=PT2_F-1esPk" target="_blank">Closer</a></td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=wNFY8lJhm0A" target="_blank">Freedom</a></td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=Mptdcx36qZU"target="_blank" >Goodbye</a></td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=gAjR4_CbPpQ"target="_blank">Harder Better Faster</a></td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=kK42LZqO0wA"target="_blank">Hello</a></td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=5qm8PH4xAss"target="_blank">In Da Club</a></td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=YqeW9_5kURI"target="_blank">Lean On</a></td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=_ovdm2yX4MA"target="_blank">Levels</a></td>
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=o3WdLtpWM_c"target="_blank">Losing It</a></td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=ZVgdQHA_IH4"target="_blank">Ne Reviens Pas</a></td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=YltjliK0ZeA"target="_blank">On verra</a></td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=XbGs_qK2PQA"target="_blank">Rap God</a></td>
+                    <td>2013</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=lmmv10THoUk"target="_blank">Seine Saint Denis Style</a></td>
+                    <td>1998</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=h_D3VFfhvs4"target="_blank">Smooth Criminal</a></td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=pXRviuL6vMY"target="_blank">Stressed Out</a></td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=0jgrCKhxE1s"target="_blank">Through The Fire And Flames</a></td>
+                    <td>2006</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=v2AC41dglnM"target="_blank">Thunderstruck</a></td>
+                    <td>1990</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=-e_sUtoksXY"target="_blank">Voices</a></td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=XXnyo9zNMpQ"target="_blank">Yesterday</a></td>
+                    <td>2018</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p class="artistes"> Artistes </p>
+        <table id = 'tabArt'>
+            <thead> 
+                <tr>
+                    <th>Artistes</th>
+                    <th>Année</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=sZfZ8uWaOFI" target="_blank" >Aerosmith</a></td>
+                    <td>1973</td>
+                </tr>
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=pHlSE9j5FGY"target="_blank" >Bob Marley</a></td>
+                    <td>1976</td>
+                </tr>
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=qke-jOUqSXU" target="_blank">Camelphat</a></td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=zUwEIt9ez7M" target="_blank">Deep Purple</a></td>
+                    <td>1971</td>
+                </tr>
+                <tr>
+                    <td><a href = "https://www.youtube.com/watch?v=_Yhyp-_hX2s" target="_blank">Eminem </a></td>
+                    <td>2002</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=I5mlAZkibgw" target="_blank">France Gall </a></td>
+                    <td>1981</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=493R05ifNsI"target="_blank" >Goldman</a></td>
+                    <td>1985</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=yKr2mEU7Ums" target="_blank">Hugo TSR</a></td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=yKr2mEU7Ums" target="_blank">IAM</a></td>
+                    <td>1993</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=nr90nbqxuZk"target="_blank">Justice</a></td>
+                    <td>2004</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=ogv284C4W30"target="_blank">Kygo</a></td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=h3yAusDnmLU"target="_blank">Leto</a></td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=iXIDtf1wP0g"target="_blank">Martin Garrix </a></td>
+                    <td>2014</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=KrVC5dm5fFc"target="_blank">Nicky Romero </a></td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=2bjk26RwjyU"target="_blank">Orelsan</a></td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=B3l0kpl5tA4"target="_blank">The Police </a></td>
+                    <td>1983</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=rY0WxgSXdEE"target="_blank">Queen</a></td>
+                    <td>1980</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=qXCFYrnD_a0"target="_blank">Rage against the Machine</a></td>
+                    <td>1998</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=fbafd6UV3w4"target="_blank">Swedish House Mafia </a></td>
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=klIF0nhsxxM"target="_blank">Tiesto</a></td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=EM4vblG6BVQ"target="_blank">U2</a></td>
+                    <td>1983</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=x-VYdBKwSLc"target="_blank">Vald</a></td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=zRHFqNcx9SI"target="_blank">W & W</a></td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=AP_PcrtyZVY"target="_blank">Yves V</a></td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td><a href ="https://www.youtube.com/watch?v=jxt3dNr7LaU"target="_blank">Zonderling</a></td>
+                    <td>2012</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <section>
+            <p class = "AVousDeJouer"> A Vous de Jouer !</p>
+            <form class="formu" action="#">
+                <div class="formulaire">
+                    <label for="nom"> Nom :</label>
+                    <input type="text" id="nom" placeholder="Nom"  name="user_nom" required>
+                    <label for="Genre"> Genre :</label>
+                    <input type="text" id="genre" placeholder="Genre"  name="user_genre" required>
+                    <label for="année"> Année :</label>
+                    <input type="text" id="annee" placeholder="Année"  name="user_annee" required>
+                    <label for="album"> Album :</label>
+                    <input type="text" id="album" placeholder="Album"  name="user_album" required>
+
+                </div>
+                <div class="Jeu">
+                    <button class= "Jouer" onclick= "ajouter()">Ajouter une musique</button>
+                    <button class= "Suppr" onclick="supprimer()" type="reset">Tout supprimer</button>
+                </div> 
+            </form>
+        </section>
+
+        <main class="formClass">
+            <table id ='tabformu'>
+
+            </table>
+
+
+
+
+        </main>
+        <div class= "decouverte">
+            <p class = "vos_decouvertes" > Vos decouvertes</p>
+            <input type="text" id="title" placeholder="Titre">
+            <textarea id="content"></textarea>
+            <button onclick="addNewDiscover()">Valider!</button>
+            <div class = "Liste">
+
+            </div>
+        </div>
+
+
+        <footer>
+            <p class="footer">
+                <a href="Qui_sommes_nous.html" target='_blank'>Qui Sommes Nous ?</a> 
+            </p>
+        </footer>
+
+        <script>
+
+            function createLine(nom, genre, annee, album) 
+            {
+                const td_nom = document.createElement('td');
+                const td_genre = document.createElement('td');
+                const td_annee = document.createElement('td');
+                const td_album = document.createElement('td');
+
+                td_nom.textContent = nom;
+                td_genre.textContent = genre;
+                td_annee.textContent = annee;
+                td_album.textContent = album;
+
+                const tr = document.createElement('tr');
+                tr.appendChild(td_nom);
+                tr.appendChild(td_genre);
+                tr.appendChild(td_annee);
+                tr.appendChild(td_album);
+
+                const table = document.querySelector('#tabformu');
+                table.appendChild(tr);
+            }
+
+            function ajouter()
+            {
+                const nom = document.querySelector("#nom");
+                const genre = document.querySelector("#genre");
+                const annee = document.querySelector("#annee");
+                const album = document.querySelector("#album");
+                console.log(nom.value);
+                console.log(genre.value);
+                console.log(annee.value);
+                console.log(album.value);
+                createLine(nom.value, genre.value, annee.value, album.value);
+            }
+            function supprimer()
+            {
+                document.querySelector('#tabformu').innerHTML = "";
+                createLine("Nom","Genre","Annee","Album"); 
+            }
+            function showPresent()
+            {
+                document.querySelector(".Presentation").style.display = "block";
+                document.querySelector(".present").style.display = "block";
+                document.querySelector(".musique").style.display = "none";
+                document.querySelector(".music").style.display = "none";
+                document.querySelector(".artistes").style.display = "none";
+                document.querySelector(".AVousDeJouer").style.display = "none";
+                document.querySelector(".formu").style.display = "none";
+                document.querySelector(".formClass").style.display = "none";
+                document.getElementById("tabMus").style.display = "none";
+                document.getElementById("tabArt").style.display = "none";
+                document.querySelector(".decouverte").style.display = "none";
+            }
+            function showMusic()
+            {
+                document.querySelector(".Presentation").style.display = "none";
+                document.querySelector(".present").style.display = "none";
+                document.querySelector(".musique").style.display = "block";
+                document.querySelector(".music").style.display = "table";
+                document.querySelector(".artistes").style.display = "none";
+                document.querySelector(".AVousDeJouer").style.display = "none";
+                document.querySelector(".formu").style.display = "none";
+                document.querySelector(".formClass").style.display = "none";
+                document.getElementById("tabMus").style.display = "table";
+                document.getElementById("tabArt").style.display = "none";
+                document.querySelector(".decouverte").style.display = "none";
+            }
+            function showArtists()
+            {
+                document.querySelector(".Presentation").style.display = "none";
+                document.querySelector(".present").style.display = "none";
+                document.querySelector(".musique").style.display = "none";
+                document.querySelector(".music").style.display = "none";
+                document.querySelector(".artistes").style.display = "block";
+                document.querySelector(".AVousDeJouer").style.display = "none";
+                document.querySelector(".formu").style.display = "none";
+                document.querySelector(".formClass").style.display = "none";
+                document.getElementById("tabMus").style.display = "none";
+                document.getElementById("tabArt").style.display = "table";
+                document.querySelector(".decouverte").style.display = "none";
+            }
+
+            function showA_Vous_de_jouez()
+            {
+                document.querySelector(".Presentation").style.display = "none";
+                document.querySelector(".present").style.display = "none";
+                document.querySelector(".musique").style.display = "none";
+                document.querySelector(".music").style.display = "none";
+                document.querySelector(".artistes").style.display = "none";
+                document.querySelector(".AVousDeJouer").style.display = "block";
+                document.querySelector(".formu").style.display = "block";
+                document.querySelector(".formClass").style.display = "table";
+                document.getElementById("tabMus").style.display = "none";
+                document.getElementById("tabArt").style.display = "none";
+                document.querySelector(".decouverte").style.display = "none";
+            }
+
+            function showDecouverte()
+            {
+                document.querySelector(".Presentation").style.display = "none";
+                document.querySelector(".present").style.display = "none";
+                document.querySelector(".musique").style.display = "none";
+                document.querySelector(".music").style.display = "none";
+                document.querySelector(".artistes").style.display = "none";
+                document.querySelector(".AVousDeJouer").style.display = "none";
+                document.querySelector(".formu").style.display = "none";
+                document.querySelector(".formClass").style.display = "none";
+                document.getElementById("tabMus").style.display = "none";
+                document.getElementById("tabArt").style.display = "none";
+                document.querySelector(".decouverte").style.display = "flex";
+            }
+            createLine("Nom","Genre","Annee","Album"); 
+            showPresent();
+
+            const avis1 = 'Michael Jackson '
+            const avis2 = 'Iron Maiden'
+            const articles = [
+                {
+                    title: 'Billy Jean' ,
+                    content: avis1
+                },
+                {
+                    title: 'Aces High',
+                    content: avis2
+                }
+            ]
+
+            for (const article of articles) 
+            {
+                createArticle(article.title, article.content)
+            }
+
+            function addNewDiscover () 
+            {
+                const title = document.querySelector('#title')
+                const content = document.querySelector('#content')
+
+                createArticle(title.value, content.value)
+            }
+            function createArticle (title, content) 
+            {
+                const h2 = document.createElement('h2')
+                const p = document.createElement('p')
+                const article = document.createElement('article')
+
+                h2.textContent = title
+                p.textContent = content
+
+                article.appendChild(h2)
+                article.appendChild(p)
+
+                const main = document.querySelector('.Liste')
+                main.appendChild(article)
+            }
+
+
+        </script>
+    </body>
+</html>
